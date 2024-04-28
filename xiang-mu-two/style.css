@@ -1,0 +1,40 @@
+a {
+    width: 132px;
+    height: 40px;
+    background-color: #0aa1ed;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    text-decoration: none; /*去掉超链接的下划线*/
+    border-radius: 3px;
+    font-size: 20px;
+  }
+  #d1 > div {
+    width: 245px;
+    height: 232px;
+    margin: 68px 0 0 36px;
+  }
+  #p3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0aa1ed;
+  }
+  #p1 {
+    font-size: 32px;
+    color: #333;
+  }
+  #d1 {
+    width: 611px;
+    height: 336px;
+    background-color: #e8e8e8;
+    background-image: url(https://labfile.oss.aliyuncs.com/courses/8605/22030404.png);
+    background-size: 318px 260px;
+    background-repeat: no-repeat; /*图片禁止重复*/
+    background-position: 90% 50%; /*水平位置 90%，垂直位置 50%*/
+    overflow: hidden; /*隐藏从块级元素中溢出的内容*/
+  }
+  body {
+    font-size: 12px;
+    font-family: "simhei", Arial, Helvetica, sans-serif;
+  }
