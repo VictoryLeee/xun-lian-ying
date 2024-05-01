@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p:before{
+            content:"举例- ";
+        }
+        button:after {
+  content: "";
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  left: -90px;
+  top: -200px;
+  z-index: -1;
+  background-image: conic-gradient(
+    #ff2e4e,
+    #d960ff,
+    #9264ff,
+    #00b3f9,
+    #06cd69,
+    #ffcd00,
+    #ff5c22,
+    #ff2e4e
+  );
+}
+        body {
+        background-color: #232831;
+      }
+      button {
+        height: 100px;
+        width: 320px;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border-radius: 7px;
+        outline: none;
+        background-color: rgba(255, 255, 255, 0.06);
+        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+        border: none;
+        overflow: hidden;
+      }
+    </style>
+</head>
+<body>
+    <button>蓝桥云课</button>
+      
+</body>
+</html>
